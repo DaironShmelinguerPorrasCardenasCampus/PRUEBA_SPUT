@@ -21,6 +21,7 @@ header{
     color: aliceblue;
     margin-left: 10px;
     border-radius: 19px;
+    font-family: 'Bebas Neue', cursive;
     
 }
 .btn-color1{
@@ -28,6 +29,7 @@ header{
     color: aliceblue;
     font-size: 20px;
     border-radius: 19px;
+    font-family: 'Bebas Neue', cursive;
     
     
 }
@@ -70,4 +72,21 @@ header .nav-link li:hover{
 
 header .nav-link a:hover{
         color: gold;
+}
+.letter{
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.btn-modal{
+    background-color: #ffee48;
+}
+.btn-modal1{
+    background-color: #762dcb;
+}
+
+@media (max-width: 780px){ 
+    .peque{
+        display: none;
+    }
 }
