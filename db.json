@@ -1,0 +1,24 @@
+{
+    "Empleados": [
+      { "id": 1, "user": "", "password": "", "email": ""}
+    ],
+    "Categorias": [
+      { "id": 1, "nombre": "some comment", "Descripcion": 1 }
+    ],
+    "Productos": [
+        { "id": 1, "nombre": "", "precio": "", "stock": "", "categoria_id" : "" }
+    ],
+    "Clientes":[
+        {"id": 1, "imagen": "", "nombre": "", "direccion": "", "telefono" : ""}
+    ]
+    ,
+    "Ventas_Factura":[
+        {"id": 1, "clienteId": "", "EmpleadoId": "", "Fecha": ""}
+    ],
+    "Detalle_Factura":[
+        {"FacturaId": "", "ProductoId": "", "Cantidad": ""}
+    ],
+    "Compras":[
+        {"id": 1, "Fecha": "", "ProductoId": "", "Cantidad": "", "Proveedor": ""}
+    ]
+  }

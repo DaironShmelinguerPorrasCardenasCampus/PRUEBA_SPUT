@@ -74,7 +74,8 @@ header .nav-link a:hover{
         color: gold;
 }
 .table-form{
-    background-color: #ffe840;
+    background-color: aliceblue;
+    border-radius: 15px;
 }
 pre{
     font-family: 'Bebas Neue', cursive;
@@ -85,4 +86,18 @@ pre{
 pre:hover{
     transform: scale(1.1);
     
+}
+.offcanvas-body li{
+ list-style: none;
+ margin-top: 30px;
+ font-family: 'Bebas Neue', cursive;
+
+}
+.offcanvas-body a{
+    text-decoration: none;
+    color: black;
+   }
+.color_canva{
+    color: black;
+    font-size: 20px;
 }
