@@ -101,3 +101,48 @@ pre:hover{
     color: black;
     font-size: 20px;
 }
+
+@media (max-width: 780px){ 
+    .peque{
+        display: none;
+    }
+    .table-form{
+        background-color: aliceblue;
+        border-radius: 15px;
+    }
+    pre{
+        font-family: 'Bebas Neue', cursive;
+        color: aliceblue;
+        font-size: 20px;
+        margin-top: 20px;
+       
+    }
+    pre:hover{
+        transform: scale(1.1);
+        
+    }
+    .offcanvas-body li{
+     list-style: none;
+     margin-top: 30px;
+     font-family: 'Bebas Neue', cursive;
+    
+    }.offcanvas-body a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .color_canva {
+        color: black;
+        font-size: 20px;
+    }
+    
+    .col-4 img {
+        width: 100px;
+        position: absolute;
+        right: 40px;
+    }
+    .col-8 table{
+        width: 400px;
+        margin-top: -60px;
+    }
+    }

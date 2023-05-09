@@ -11,8 +11,8 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="StyleForm.css">
-
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="main.js" defer></script>
     <title>CAMPUS</title>
 </head>
 
@@ -27,7 +27,7 @@
                         <div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
                             aria-labelledby="staticBackdropLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="staticBackdropLabel"><pre class="color_canva">C A M P U S   L A N D</pre></h5>
+                                <h5 class="offcanvas-title" id="staticBackdropLabel"><pre class="color_canva">        C A M P U S   L A N D</pre></h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
@@ -80,7 +80,7 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-4">
+            <div class="col-4" data-aos="flip-up">
                 <img src="img/lenguado.png" alt="" width="500px" style="margin-left: 130px; margin-top: 100px;">
             </div>
             <div class="col-8" style="margin-top: 200px; width: 1000px; margin-left: 100px;"  >
@@ -90,10 +90,48 @@
                           <th scope="col">NAME</th>
                           <th scope="col">USER</th>
                           <th scope="col">EMAIL</th>
+                          <th scope="col"><img src="./img/borrar.png" alt="" width="30px"></th>
+                          <th scope="col"><img src="./img/flecha-derecha.png" alt="" width="30px"></th>
                         </tr>
                       </thead>
                       <tbody>
-                       
+                        <tr>
+                            <td>Dairon Porras</td>
+                            <td>DAPO_SHMELINGUER</td>
+                            <td>porras.n123456789@gmail.com</td>
+                            <td><button type="button" class="btn btn-danger">ELIMINAR</button></td>
+                            <td><button type="button" class="btn btn-secondary">ACTUALIZAR</button></td>
+                          </tr>
+                          <tr>
+                            <td>Jacob David</td>
+                            <td>Thornton</td>
+                            <td>@Jacob_davidad@gmial.com</td>
+                            <td><button type="button" class="btn btn-danger">ELIMINAR</button></td>
+                            <td><button type="button" class="btn btn-secondary">ACTUALIZAR</button></td>
+                          </tr>
+                          <tr>
+                            <td>Jacob David</td>
+                            <td>Thornton</td>
+                            <td>@Jacob_davidad@gmial.com</td>
+                            <td><button type="button" class="btn btn-danger">ELIMINAR</button></td>
+                            <td><button type="button" class="btn btn-secondary">ACTUALIZAR</button></td>
+                          </tr>
+                          <tr>
+                            <td>Jacob David</td>
+                            <td>Thornton</td>
+                            <td>@Jacob_davidad@gmial.com</td>
+                            <td><button type="button" class="btn btn-danger">ELIMINAR</button></td>
+                            <td><button type="button" class="btn btn-secondary">ACTUALIZAR</button></td>
+                          </tr>
+                          <tr>
+                            <td>Jacob David</td>
+                            <td>Thornton</td>
+                            <td>@Jacob_davidad@gmial.com</td>
+                            <td><button type="button" class="btn btn-danger">ELIMINAR</button></td>
+                            <td><button type="button" class="btn btn-secondary">ACTUALIZAR</button></td>
+                          </tr>
+                          <tr>
+                      
                         
                       </tbody>
                     
@@ -105,5 +143,9 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>

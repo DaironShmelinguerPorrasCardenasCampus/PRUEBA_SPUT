@@ -11,16 +11,57 @@
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="main.js" defer></script>
     <title>CAMPUS</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
+        <div class="logo" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
             <img src="img/malabares.png" alt="">
-            <a href=""><button type="button" class="btn btn-color">SING UP</button></a>
+            <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#exampleModal1"
+            data-bs-whatever="@mdo">SING UP</button>
+            <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel1">INICIAR SESIÓN</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                       <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="col">
+                                                <label for="recipient-name" class="col-form-label">NAME</label>
+                                                <input type="text" class="form-control" id="name">
+                                            </div>
+                                        </div>
+                                       </div>
+                                    </div>
+                            
+                                    <div class="mb-3">
+                                        <div class="container-fluid">
+                                         <div class="row">
+                                             <div class="col">
+                                                 <label for="recipient-name" class="col-form-label">PASSWORD</label>
+                                                 <input type="password" class="form-control" id="email">
+                                             </div>
+                                         </div>
+                                        </div>
+                                     </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-modal" data-bs-dismiss="modal">INICIAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
 
         <nav>
@@ -28,7 +69,7 @@
                 <div class="peque">
                     <ul class="nav-link">
                         <li><a href="">HOME</a></li>
-                        <li><a href="/form.html">CRUD</a></li>
+                        <li><a href="./form.html">CRUD</a></li>
                         <li><a href="">ABOUT US</a></li>
                     </ul>
                 </div>
@@ -37,7 +78,7 @@
     </header>
     <div class="container letter">
         <div class="row">
-            <div class="col">
+            <div class="col" data-aos="fade-up">
                 <button type="button" class="btn btn-color1" data-bs-toggle="modal" data-bs-target="#exampleModal"
                     data-bs-whatever="@mdo">REGISTRARSE</button>
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -101,5 +142,9 @@
 
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>
