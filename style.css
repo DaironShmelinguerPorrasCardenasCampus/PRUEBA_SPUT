@@ -39,7 +39,7 @@ header{
     
 }
 header .logo img{
-   height: 70px; 
+   height: 100px; 
    width: auto;
 }
 header .logo{
@@ -80,9 +80,11 @@ header .nav-link a:hover{
 
 .btn-modal{
     background-color: #ffee48;
+    
 }
 .btn-modal1{
     background-color: #762dcb;
+    color: aliceblue;
 }
 
 @media (max-width: 780px){ 
