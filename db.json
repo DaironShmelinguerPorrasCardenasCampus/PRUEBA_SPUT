@@ -3,7 +3,7 @@
       { "id": 1, "user": "maicol", "password": "123456"}
     ],
     "Categorias": [
-      { "id": 1, "nombre": "some comment", "Descripcion": 1 }
+      { "id": 1, "nombre": "", "Descripcion": 1 }
     ],
     "Productos": [
         { "id": 1, "nombre": "", "precio": "", "stock": "", "categoria_id" : "" }

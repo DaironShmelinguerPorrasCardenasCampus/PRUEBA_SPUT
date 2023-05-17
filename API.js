@@ -20,7 +20,7 @@ export const IngresarUsuario = async(registro , url) => {
                 'Content-Type': 'application/json'
             }
         });
-
+        window.location.href='index.html'
     } catch (error) {
         console.log(error);
     }

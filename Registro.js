@@ -22,6 +22,10 @@ function ContUser(e) {
  async function EnviarRegistro(){
    const registro = await IngresarUsuario();
 
+   const datos = {
+      usuario,
+      contraseña
+   }
  }
 
 
