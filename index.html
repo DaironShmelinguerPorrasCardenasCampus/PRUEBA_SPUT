@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="main.js" defer></script>
+    <script src="inicioSecion.js" type="module" defer></script>
     <title>CAMPUS</title>
 </head>
 
@@ -49,7 +50,7 @@
                                          <div class="row">
                                              <div class="col">
                                                  <label for="recipient-name" class="col-form-label">PASSWORD</label>
-                                                 <input type="password" class="form-control" id="email">
+                                                 <input type="password" class="form-control" id="contraseña">
                                              </div>
                                          </div>
                                         </div>
@@ -57,7 +58,7 @@
                                 </form>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-modal" data-bs-dismiss="modal">INICIAR</button>
+                                <button type="button" class="btn btn-modal" data-bs-dismiss="modal" id="btnIniciar">INICIAR</button>
                             </div>
                         </div>
                     </div>
@@ -91,13 +92,13 @@
                                     aria-label="Close"></button>
                             </div>
                             <div class="modal-body">
-                                <form>
+                                <form method='POST'>
                                     <div class="mb-3">
                                        <div class="container-fluid">
                                         <div class="row">
                                             <div class="col">
                                                 <label for="recipient-name" class="col-form-label">NAME</label>
-                                                <input type="text" class="form-control" id="name">
+                                                <input type="text" class="form-control" id="name1">
                                             </div>
                                         </div>
                                        </div>
@@ -107,7 +108,7 @@
                                         <div class="row">
                                             <div class="col-6">
                                                 <label for="message-text" class="col-form-label"  >USER</label>
-                                                <input type="text" class="form-control" id="user">
+                                                <input type="text" class="form-control" id="user1">
                                             </div>
                                             <div class="col-6">
                                                 <label for="message-text" class="col-form-label">PASSWORD</label>
