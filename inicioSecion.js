@@ -22,7 +22,7 @@ async function EnviarInf() {
    usuarios.forEach(element => {
       if(usuario && contraseña){
          if (usuario === element.user && contraseña === element.password) {
-            alert('FUNCIONÓ :)')
+            window.location.href = 'form.html'
          } else if (usuario === element.user && contraseña != element.password) {
             alert('CONTRASEÑA INCORRECTA. INTENTE DE NUEVO')
          } else if (usuario != element.user && contraseña === element.password) {

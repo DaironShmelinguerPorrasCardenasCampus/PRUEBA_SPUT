@@ -11,7 +11,7 @@ export const getEmpleatos = async () =>{
     }
 
 }
-export const IngresarUsuario = async(registro) => {
+export const IngresarUsuario = async(registro , url) => {
     try {
         await fetch (url,{
             method:'POST',

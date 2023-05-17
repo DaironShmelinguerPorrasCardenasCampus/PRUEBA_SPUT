@@ -1,3 +1,5 @@
+import { IngresarUsuario } from "./API.js";
+
 (function() {
  const user = document.querySelector('#user1');
  const password = document.querySelector('#recipient-name');
@@ -17,36 +19,10 @@ function ContUser(e) {
     contraseña = e.target.value;
  }
 
+ async function EnviarRegistro(){
+   const registro = await IngresarUsuario();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
 
 
 
